@@ -5,6 +5,7 @@ gem 'sinatra-contrib'
 gem 'shotgun'
 gem 'figaro'
 gem 'pry'
+gem "actionmailer"
 
 group :test do
   gem 'rack-test'
