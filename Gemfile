@@ -3,7 +3,7 @@ gem "sinatra"
 
 gem 'figaro'
 gem 'pry'
-gem "mail"
+gem "send_grid_mailer"
 
 group :test do
   gem 'rack-test'
