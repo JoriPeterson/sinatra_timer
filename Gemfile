@@ -1,9 +1,8 @@
 source "https://rubygems.org"
-gem "sinatra"
+gem "sinatra", require: 'sinatra/base'
 
 gem 'figaro'
 gem 'pry'
-gem "send_grid_mailer"
 
 group :test do
   gem 'rack-test'
