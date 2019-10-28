@@ -1,5 +1,5 @@
 require "sinatra"
-require 'action_mailer/railtie'
+require 'action_mailer'
 
 class App < Sinatra::Base
   get "/" do
